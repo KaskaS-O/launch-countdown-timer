@@ -1,0 +1,25 @@
+.footer {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+
+  &__socials {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin: 0 auto;
+    padding: 5% 0 7%;
+  }
+
+  &__attribution {
+    font-family: Arial, Helvetica, sans-serif;
+    color: $grayish-blue;
+
+    a {
+      color: $grayish-blue;
+      letter-spacing: 1px;
+    }
+  }
+}

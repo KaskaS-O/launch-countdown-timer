@@ -1,10 +1,16 @@
 @import "normalize";
 @import "variables";
+@import "App";
+@import "Footer";
+@import "Counter";
+@import "CounterElement";
 
-// .attribution {
-//   font-size: 11px;
-//   text-align: center;
-// }
-// .attribution a {
-//   color: hsl(228, 45%, 44%);
-// }
+.main {
+  position: relative;
+  background-image: url(../images/pattern-hills.svg),
+    url(../images/bg-stars.svg);
+  background-repeat: no-repeat;
+  background-size: auto, auto;
+  background-position: 85% bottom, 0 0;
+  background-color: $very-dark-blue;
+}

@@ -1,0 +1,9 @@
+.counter {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: space-between;
+    padding: 8%;
+  }
+}

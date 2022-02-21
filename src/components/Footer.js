@@ -11,7 +11,7 @@ const Footer = (props) => {
         <Instagram />
       </div>
       <span className="footer__attribution">
-        Challenge by
+        Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge">
           Frontend Mentor
         </a>

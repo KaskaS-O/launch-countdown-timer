@@ -1,0 +1,69 @@
+.counterElement {
+  &__card {
+    height: $square-size-mobile;
+    width: $square-size-mobile;
+  }
+
+  &__name {
+    display: block;
+    width: 100%;
+    padding-top: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $grayish-blue;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+  }
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 0 $mostly-black-blue;
+
+  &__value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $soft-red;
+    font-size: 3.5rem;
+  }
+
+  &__bg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.bg {
+  &__rect {
+    height: 50%;
+    &--upper {
+      background-color: darken($dark-desaturated-blue, 3%);
+    }
+    &--lower {
+      background-color: $dark-desaturated-blue;
+    }
+  }
+
+  &__dot {
+    position: absolute;
+    top: 50%;
+    height: $dot-size-mobile;
+    width: $dot-size-mobile;
+    border-radius: 50%;
+    background-color: $mostly-black-blue;
+
+    &--left {
+      left: 0%;
+      transform: translate(-50%, -50%);
+    }
+
+    &--right {
+      right: 0%;
+      transform: translate(50%, -50%);
+    }
+  }
+}
