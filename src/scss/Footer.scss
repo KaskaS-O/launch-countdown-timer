@@ -11,11 +11,29 @@
     width: 35%;
     margin: 0 auto;
     padding: 5% 0 7%;
+
+    @media (min-width: $mobile-md) {
+      width: 20%;
+      padding-bottom: 5%;
+    }
+
+    @media (min-width: $mobile-lg) {
+      width: 15%;
+      padding-bottom: 3%;
+    }
+
+    @media (min-width: $desktop-sm) {
+      width: 10%;
+    }
   }
 
   &__attribution {
     font-family: Arial, Helvetica, sans-serif;
     color: $grayish-blue;
+
+    @media (min-width: $desktop-sm) {
+      font-size: 0.8rem;
+    }
 
     a {
       color: $grayish-blue;

@@ -2,6 +2,21 @@
   &__card {
     height: $square-size-mobile;
     width: $square-size-mobile;
+
+    @media (max-width: $mobile-xs) {
+      height: $square-size-mobile-xs;
+      width: $square-size-mobile-xs;
+    }
+
+    @media (min-width: $mobile-md) {
+      height: $square-size-mobile-lg;
+      width: $square-size-mobile-lg;
+    }
+
+    @media (min-width: $desktop-sm) {
+      height: $square-size-desktop;
+      width: $square-size-desktop;
+    }
   }
 
   &__name {
@@ -13,6 +28,10 @@
     color: $grayish-blue;
     font-size: 0.8rem;
     letter-spacing: 2px;
+
+    @media (min-width: $desktop-sm) {
+      font-size: 1rem;
+    }
   }
 }
 
@@ -29,6 +48,14 @@
     transform: translate(-50%, -50%);
     color: $soft-red;
     font-size: 3.5rem;
+
+    @media (min-width: $mobile-md) {
+      font-size: 3.8rem;
+    }
+
+    @media (min-width: $desktop-sm) {
+      font-size: 5rem;
+    }
   }
 
   &__bg {
@@ -55,6 +82,16 @@
     width: $dot-size-mobile;
     border-radius: 50%;
     background-color: $mostly-black-blue;
+
+    @media (min-width: $mobile-md) {
+      height: $dot-size-mobile-lg;
+      width: $dot-size-mobile-lg;
+    }
+
+    @media (min-width: $desktop-sm) {
+      height: $dot-size-desktop;
+      width: $dot-size-desktop;
+    }
 
     &--left {
       left: 0%;

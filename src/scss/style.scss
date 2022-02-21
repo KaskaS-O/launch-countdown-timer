@@ -13,4 +13,9 @@
   background-size: auto, auto;
   background-position: 85% bottom, 0 0;
   background-color: $very-dark-blue;
+
+  @media (orientation: landscape) {
+    background-size: contain;
+    background-position: center bottom, 0 0;
+  }
 }
