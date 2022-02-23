@@ -1,13 +1,12 @@
 import CounterElement from "./CounterElement";
 
 const Counter = (props) => {
-  const counterElements = props.time.map((element) => (
-    <CounterElement
-      key={element.name}
-      name={element.name}
-      value={element.value}
-    />
-  ));
+  let counterElements = [];
+
+  for (const [key, value] of Object.entries(props.time)) {
+    counterElements.push(<CounterElement key={key} name={key} value={value} />);
+  }
+
   return <div className="counter__container">{counterElements}</div>;
 };
 
