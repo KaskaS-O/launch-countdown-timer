@@ -6,9 +6,9 @@ const Footer = (props) => {
   return (
     <footer className="footer">
       <div className="footer__socials">
-        <Facebook />
-        <Pinterest />
-        <Instagram />
+        <Facebook className="footer__icon" />
+        <Pinterest className="footer__icon" />
+        <Instagram className="footer__icon" />
       </div>
       <span className="footer__attribution">
         Challenge by{" "}

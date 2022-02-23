@@ -27,6 +27,16 @@
     }
   }
 
+  &__icon {
+    color: $grayish-blue;
+    transition: 0.2s;
+
+    &:hover {
+      cursor: pointer;
+      color: $soft-red;
+    }
+  }
+
   &__attribution {
     font-family: Arial, Helvetica, sans-serif;
     color: $grayish-blue;
