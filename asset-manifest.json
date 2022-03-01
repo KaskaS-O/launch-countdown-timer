@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e588fdde.css",
-    "main.js": "/static/js/main.51722ea6.js",
-    "static/media/bg-stars.svg": "/static/media/bg-stars.166881a1c03d6b1239f5.svg",
-    "static/media/icon-instagram.svg": "/static/media/icon-instagram.8a1f63c6a3bf21b7ef79fb958f9afeb2.svg",
-    "static/media/icon-pinterest.svg": "/static/media/icon-pinterest.bc07672196e5b26e3626c1dfdf1bf01d.svg",
-    "static/media/pattern-hills.svg": "/static/media/pattern-hills.815d688fd937623063b5.svg",
-    "index.html": "/index.html",
-    "static/media/icon-facebook.svg": "/static/media/icon-facebook.82b535a4f5784aa30e57c29c924eaa98.svg",
-    "main.e588fdde.css.map": "/static/css/main.e588fdde.css.map",
-    "main.51722ea6.js.map": "/static/js/main.51722ea6.js.map"
+    "main.css": "/launch-countdown-timer/static/css/main.82cdb917.css",
+    "main.js": "/launch-countdown-timer/static/js/main.af397708.js",
+    "static/media/bg-stars.svg": "/launch-countdown-timer/static/media/bg-stars.166881a1c03d6b1239f5.svg",
+    "static/media/icon-instagram.svg": "/launch-countdown-timer/static/media/icon-instagram.8a1f63c6a3bf21b7ef79fb958f9afeb2.svg",
+    "static/media/icon-pinterest.svg": "/launch-countdown-timer/static/media/icon-pinterest.bc07672196e5b26e3626c1dfdf1bf01d.svg",
+    "static/media/pattern-hills.svg": "/launch-countdown-timer/static/media/pattern-hills.815d688fd937623063b5.svg",
+    "index.html": "/launch-countdown-timer/index.html",
+    "static/media/icon-facebook.svg": "/launch-countdown-timer/static/media/icon-facebook.82b535a4f5784aa30e57c29c924eaa98.svg",
+    "main.82cdb917.css.map": "/launch-countdown-timer/static/css/main.82cdb917.css.map",
+    "main.af397708.js.map": "/launch-countdown-timer/static/js/main.af397708.js.map"
   },
   "entrypoints": [
-    "static/css/main.e588fdde.css",
-    "static/js/main.51722ea6.js"
+    "static/css/main.82cdb917.css",
+    "static/js/main.af397708.js"
   ]
 }
